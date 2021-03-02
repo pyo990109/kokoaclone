@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "login.css";
+@import "friends.css";
+@import "nav-bar.css";
+@import "screen.css";
+@import "user-screen.css";
+@import "badge.css";
+@import "find.css";
+@import "more.css";
+@import "alt-screen-header.css";
+@import "settings.css";
+@import "chats.css";
+@import "no-mobile.css";
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.main-screen{
+    padding:0px 20px;
+}
+.user-component__chat{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgba(0,0,0,0.3);
+    padding-bottom:20px;
+}
+.user-component__chat:nth-child(2){
+    padding-top:20px;
+    border-bottom:none;
+}
+.user-component__column:last-child{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user-component__time{
+    font-size:15px;
+    margin-bottom:10px;
+}
+.user-component__noti{
+    width:25px;
+    height:25px;
+    border-radius: 20px;
+    font-size:14px;
+    text-align: center;
+    align-items: center;
+    background-color: tomato;
+    color:white;
+    margin-top:10px;
+    
+}
+
+
+
+

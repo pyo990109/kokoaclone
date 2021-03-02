@@ -1,0 +1,22 @@
+#screen-display{
+    display:block;
+    background-color: #fafafa;
+    text-align: center;
+    padding:15px 0px;
+    margin-top:-20px;
+}
+#screen-display i{
+    color:rgba(0,0,0,0.3);
+}
+
+@keyframse rotateCog {
+    from{
+        transform:none;
+    }
+    to{
+        transform:rotateZ(360deg);
+    }
+}
+.friends-bar__icon span:last-child > i{
+    animation:rotateCog 1s linear infinite;
+}

@@ -1,0 +1,32 @@
+#no-mobile{
+    position:absolute;
+    z-index:99;
+    height:100vh;
+    width:100vw;
+    background-color: #fae100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+    font-weight: 600;
+    top:0;
+}
+#no-mobile-on-chats{
+    position:absolute;
+    z-index:99;
+    height:130vh;
+    width:100vw;
+    background-color: #fae100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:32px;
+    font-weight: 600;
+    top:0;
+}
+
+@media (max-width:645px){
+    #no-mobile,#no-mobile-on-chats{
+        display:none;
+    }
+}
